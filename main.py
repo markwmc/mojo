@@ -1,3 +1,13 @@
+with open('input.txt', 'r') as f:
+    text = f.read()
+    print(text)
+
+
+
+
+
+
+
 class Banana:
     def __init__(self, Ripe: bool, Length: float, Color: str):
         self.Ripe = Ripe
@@ -18,4 +28,5 @@ def main():
     print(banana.color())
 
     if __name__=="__main__":
-        main()
+        main
+
