@@ -1,24 +1,26 @@
-struct Banana:
-    var Ripe: Bool
-    var Length: Float32
-    var Color: String
-    fn __init__(inout self, Ripe: Bool, Length: Float32, Color:String):
-        self.Ripe = Ripe
-        self.Length = Length
-        self.Color = Color
 
-    fn ripe(self, rhs: Banana ) -> Bool:
-        return self.Ripe
 
-    fn length(self, rhs: Banana) -> Float32:
-        return self.Length
+#struct Banana:
+ #   var Ripe: Bool
+  #  var Length: Float32
+   # var Color: String
+    #fn __init__(inout self, Ripe: Bool, Length: Float32, Color:String):
+     #   self.Ripe = Ripe
+      #  self.Length = Length
+       # self.Color = Color
+
+   # fn ripe(self, rhs: Banana ) -> Bool:
+    #    return self.Ripe
+
+    #fn length(self, rhs: Banana) -> Float32:
+     #   return self.Length
     
-    fn color(self, rhs: Banana) -> String:
-        return self.Color 
+   # fn color(self, rhs: Banana) -> String:
+     #   return self.Color 
     
-fn main():
-    let banana = Banana(False, 4.6, 'yellow')
-    print(banana.ripe(banana))
+#fn main():
+ #   let banana = Banana(False, 4.6, 'yellow')
+  #  print(banana.ripe(banana))
 
 
 
