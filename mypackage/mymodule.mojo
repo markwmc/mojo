@@ -1,13 +1,13 @@
-#create a module
-struct MyPair:
-    var first: Int
-    var second: Int 
+#create a package
+#struct MyPair:
+ #   var first: Int
+  #  var second: Int 
 
-    fn __init__(inout self, first: Int, second: Int) -> Int:
-        self.first = first
-        self.second = second
-    fn dump(self):
-        print(self.first, self.second)
+   # fn __init__(inout self, first: Int, second: Int) -> Int:
+    #    self.first = first
+     #   self.second = second
+   # fn dump(self):
+    #    print(self.first, self.second)
 
 
 

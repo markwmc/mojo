@@ -2,10 +2,55 @@
 
 
 
+# Decorators and metaprogramming
+#fn main():
+    #unroll unrolls a loop and performs 10 iterations x times, or fractions of the whole loop. optimization
+ #   @unroll(x)
+  #  for i in range(10):
+        #do_something(i)
 
 
 
 
+
+
+
+# create a SIMD; single instruction/multile data multiplies entire array in one oeration
+
+#fn add[datatype: DType, Length: Int](a: SIMD[datatype, Length], b: SIMD[datatype, Length]) -> SIMD[datatype, Length]:
+ #   return a + b
+
+#fn main():
+ #   let x = SIMD[DType.float16, 4](1,4,9,16)
+ #   print(add(x,x))
+
+
+
+
+#fn main():
+ #   let x = SIMD[DType.float16, 4](1,4,9,16)
+  #  print(x*2)
+   # print(x.__len__())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#from mypackage.mymodule import MyPair
+
+#fn main():
+ #   var mine = MyPair(2,4)
+  #  mine.dump()
 
 
 
